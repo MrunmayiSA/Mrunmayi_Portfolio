@@ -48,3 +48,11 @@
 
 [Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
 
+### Project 6: Dimensionality Reduction
+* Perfomed PCA on lfw_people dataset with 10 principal components
+* Found number of components required to preserve 95% variance in the dataset (k)
+* Updated PCA model with k and reconstructed the faces
+* Trained logistic regression and KNN classifier on images
+* Evaluated model performance using f-1 score
+
+[Project Implementation](https://github.com/MrunmayiSA/DimensionalityReductionOnFaces.git)
