@@ -21,3 +21,14 @@
 * Used lasso regression, decision tree, random forest to improve model performance
 
 [Conclusion and Results](https://zhuochenglin.github.io/US_Accidents_Project/)
+
+### Project 3: Prediction of trip duration for cab services
+* Eliminated irrelevant variables. Explored target variable. 
+* Visulized features and drew conclusions (Univariate, bivariate analysis)
+* Found feature relationships with target
+* Performed pre-processing and feature engineering
+* After train-test split, constructed regression model with 5-fold cross validation using linear regression and decision trees
+* Evaluated models using MSE
+
+[Project Implementation](https://github.com/MrunmayiSA/PredictingTripDurationRegression.git)
+
