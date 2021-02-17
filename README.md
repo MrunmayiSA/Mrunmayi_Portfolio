@@ -40,3 +40,11 @@
 
 [Project Implementation](https://github.com/MrunmayiSA/NERModel.git)
 
+### Project 5: Clustering on 2D array of points
+* Performed k-means clustering while visualizing clusters at each iteration
+* Used elbow method to find the optimal value of k
+* Implemented dbscan, hierarchical clustering, while visualizing dendograms
+* Performed color quantization using k-means
+
+[Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
+
