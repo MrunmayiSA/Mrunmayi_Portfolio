@@ -32,3 +32,11 @@
 
 [Project Implementation](https://github.com/MrunmayiSA/PredictingTripDurationRegression.git)
 
+### Project 4: Named Entity Recognition model
+* Task: To capture adverse drug reaction of a patient to a particular drug documented in patient's electronic health record using NLP
+* Explored Information Retrieval techniques for formulating rules to extract word sequences which form possible adverse drug reactions.
+* Utilized sci-spacy's pre-trained models for identification of diseases since they can be considered as adverse drug reactions.
+* Fine-tuned the NER model developed at John Snow Labs, using SparkNLP pipeline
+
+[Project Implementation](https://github.com/MrunmayiSA/NERModel.git)
+
