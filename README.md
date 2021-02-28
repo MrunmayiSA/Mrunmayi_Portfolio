@@ -61,7 +61,8 @@
 * Researched current advances in the field of NLP for summarization
 * Explored inner-workings of PEGASUS model and using it for transfer learning
 * Fine-tuned BART and T5 models on the CNN/Daily Mail dataset 
-* Tested these models on BBC News dataset and compared them with each other as well as the baseline model using ROUGE score
+* Tested these models on BBC News dataset and compared them with each other as well as the baseline model using ROUGE score<br>
+
 |  Models   |rouge1 |rouge2 |rougeL |prec1  |prec2  | precL |
 |-----------|-------|-------|-------|-------|-------|-------|
 |Baseline-3 | 43.88 | 36.04 | 34.75 | 77.81 | 63.95 | 61.71 |
