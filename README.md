@@ -56,3 +56,20 @@
 * Evaluated model performance using f-1 score
 
 [Project Implementation](https://github.com/MrunmayiSA/DimensionalityReductionOnFaces.git)
+
+### Project 7: Text Summarization
+* Researched current advances in the field of NLP for summarization
+* Explored inner-workings of PEGASUS model and using it for transfer learning
+* Fine-tuned BART and T5 models on the CNN/Daily Mail dataset 
+* Tested these models on BBC News dataset and compared them with each other as well as the baseline model using ROUGE score
+|  Models   |rouge1 |rouge2 |rougeL |prec1  |prec2  | precL |
+|-----------|-------|-------|-------|-------|-------|-------|
+|Baseline-3 | 43.88 | 36.04 | 34.75 | 77.81 | 63.95 | 61.71 |
+|Baseline-1 | 22.45 | 19.57 | 21.66 | 87.03 | 77.93 | 83.70 |
+|BART-Base  | 5.40  | 0.37  | 4.36  | 29.52 | 22.6  | 24.08 |
+|BART-Tuned | 2.58  | 0.18  | 2.11  | 15.23 | 1.18  | 12.56 |
+|T5-Small   | 5.30  | 0.38  | 4.384 | 33.69 | 2.73  | 28.35 |
+|T5-Tuned   | 1.51  | 0.09  | 1.31  | 11.29 | 0.81  | 9.98  |
+
+[Project Implementation](https://github.com/MrunmayiSA/Text-Summarization.git)
+
