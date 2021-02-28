@@ -14,7 +14,7 @@
   * MLP (relu activation function, adam solver)
 * Both Random Forest and MLP gave best performance with an ROC-AUC score of 0.99
 
-[Project Implementation](https://github.com/MrunmayiSA/CustomerChurnPrediction.git)
+[Project Implementation](https://github.com/MrunmayiSA/FakeJobClassifier.git)
 
 ### Project 2: Analysis of US Traffic Accidents and Classification into Severity levels
 * Dataset: https://smoosavi.org/datasets/us_accidents
