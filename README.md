@@ -1,12 +1,18 @@
 # Mrunmayi Anchawale Portfolio
 
-### Project 1: Churn Prediction of bank customers
-* Created a model that predicts whether a customer will churn (his/her balance will fall below minimum balance in the next quarter)
-* Handled missing values using appropriate imputations
-* Pre-processed data to make it modelling ready (one-hot encoding, skeweness treatment, outlier removal, scaling)
-* Created baseline model to serve as an indicator of performance for other models (along with its confusion matrix, ROC-AUC on test data), with cross-validation
-* Compared baseline against model having all features
-* Compared baseline agaist model built using top 10 features obtained by Reverse Feature Elimination
+### Project 1: Fake Job Classifier
+* Dataset : Employment Scam Aegean Dataset (http://emscad.samos.aegean.gr/)
+* Performed exploratory data analysis to find the words used to make the jobs sound genuine and industries that attract scammers
+* Processed text data (stopwords, punctuation removal) and one-hot-encoded it for ML
+* Used Synthetic Minority Oversampling Technique to overcome class imbalance in the target (17,014 real and 866 fake job postings)
+* Used Grid Search Cross Validation to find the best parameters for ML models (10 folds)
+* Following classification algorithms were tested and compared:
+  * Logistic(Ridge) regression
+  * KNN (22 neighbours)
+  * SVM (rbf kernel)
+  * Random Forest (100 estimators)
+  * MLP (relu activation function, adam solver)
+* Both Random Forest and MLP gave best performance with an ROC-AUC score of 0.99
 
 [Project Implementation](https://github.com/MrunmayiSA/CustomerChurnPrediction.git)
 
@@ -22,42 +28,16 @@
 
 [Conclusion and Results](https://zhuochenglin.github.io/US_Accidents_Project/)
 
-### Project 3: Prediction of trip duration for cab services
-* Eliminated irrelevant variables. Explored target variable. 
-* Visulized features and drew conclusions (Univariate, bivariate analysis)
-* Found feature relationships with target
-* Performed pre-processing and feature engineering
-* After train-test split, constructed regression model with 5-fold cross validation using linear regression and decision trees
-* Evaluated models using MSE
+### Project 3: Audio Classification
 
-[Project Implementation](https://github.com/MrunmayiSA/PredictingTripDurationRegression.git)
 
-### Project 4: Named Entity Recognition model
-* Task: To capture adverse drug reaction of a patient to a particular drug documented in patient's electronic health record using NLP
-* Explored Information Retrieval techniques for formulating rules to extract word sequences which form possible adverse drug reactions.
-* Utilized sci-spacy's pre-trained models for identification of diseases since they can be considered as adverse drug reactions.
-* Fine-tuned the NER model developed at John Snow Labs, using SparkNLP pipeline
 
-[Project Implementation](https://github.com/MrunmayiSA/NERModel.git)
+### Project 4: Book Recommendation System
 
-### Project 5: Clustering on 2D array of points
-* Performed k-means clustering while visualizing clusters at each iteration
-* Used elbow method to find the optimal value of k
-* Implemented dbscan, hierarchical clustering, while visualizing dendograms
-* Performed color quantization using k-means
 
-[Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
 
-### Project 6: Dimensionality Reduction
-* Perfomed PCA on lfw_people dataset with 10 principal components
-* Found number of components required to preserve 95% variance in the dataset (k)
-* Updated PCA model with k and reconstructed the faces
-* Trained logistic regression and KNN classifier on images
-* Evaluated model performance using f-1 score
 
-[Project Implementation](https://github.com/MrunmayiSA/DimensionalityReductionOnFaces.git)
-
-### Project 7: Text Summarization
+### Project 5: Text Summarization
 * Researched current advances in the field of NLP for summarization
 * Explored inner-workings of PEGASUS model and using it for transfer learning
 * Fine-tuned BART and T5 models on the CNN/Daily Mail dataset 
@@ -73,4 +53,57 @@
 |T5-Tuned   | 1.51  | 0.09  | 1.31  | 11.29 | 0.81  | 9.98  |
 
 [Project Implementation](https://github.com/MrunmayiSA/Text-Summarization.git)
+
+### Project 6: Named Entity Recognition model
+* Task: To capture adverse drug reaction of a patient to a particular drug documented in patient's electronic health record using NLP
+* Explored Information Retrieval techniques for formulating rules to extract word sequences which form possible adverse drug reactions.
+* Utilized sci-spacy's pre-trained models for identification of diseases since they can be considered as adverse drug reactions.
+* Fine-tuned the NER model developed at John Snow Labs, using SparkNLP pipeline
+
+[Project Implementation](https://github.com/MrunmayiSA/NERModel.git)
+
+### Project 7: Dimensionality Reduction
+* Perfomed PCA on lfw_people dataset with 10 principal components
+* Found number of components required to preserve 95% variance in the dataset (k)
+* Updated PCA model with k and reconstructed the faces
+* Trained logistic regression and KNN classifier on images
+* Evaluated model performance using f-1 score
+
+[Project Implementation](https://github.com/MrunmayiSA/DimensionalityReductionOnFaces.git)
+
+### Project 8: Clustering on 2D array of points
+* Performed k-means clustering while visualizing clusters at each iteration
+* Used elbow method to find the optimal value of k
+* Implemented dbscan, hierarchical clustering, while visualizing dendograms
+* Performed color quantization using k-means
+
+[Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
+
+
+### Project 9: Churn Prediction of bank customers
+* Created a model that predicts whether a customer will churn (his/her balance will fall below minimum balance in the next quarter)
+* Handled missing values using appropriate imputations
+* Pre-processed data to make it modelling ready (one-hot encoding, skeweness treatment, outlier removal, scaling)
+* Created baseline model to serve as an indicator of performance for other models (along with its confusion matrix, ROC-AUC on test data), with cross-validation
+* Compared baseline against model having all features
+* Compared baseline agaist model built using top 10 features obtained by Reverse Feature Elimination
+
+[Project Implementation](https://github.com/MrunmayiSA/CustomerChurnPrediction.git)
+
+
+### Project 10: Prediction of trip duration for cab services
+* Eliminated irrelevant variables. Explored target variable. 
+* Visulized features and drew conclusions (Univariate, bivariate analysis)
+* Found feature relationships with target
+* Performed pre-processing and feature engineering
+* After train-test split, constructed regression model with 5-fold cross validation using linear regression and decision trees
+* Evaluated models using MSE
+
+[Project Implementation](https://github.com/MrunmayiSA/PredictingTripDurationRegression.git)
+
+
+
+
+
+
 
