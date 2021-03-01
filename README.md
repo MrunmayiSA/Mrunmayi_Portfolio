@@ -73,7 +73,18 @@ Coming Soon........
 
 [Project Implementation](https://github.com/MrunmayiSA/NERModel.git)
 
-### Project 7: Dimensionality Reduction
+### Project 7: Predict Electricity Consumption - ARIMA
+* Dataset: https://www.kaggle.com/kandij/electric-production
+* Visualized Time Series
+* Checked for stationarity using ADF (Augmented Dickey-Fuller) Test
+* Removed trends by moving averages and seasonality by differencing
+* Constructed ACF and PACF plots to get the values of p and q
+* Fitted ARIMA model with RSS of 0.52 and predicted consumption for the period 2017-2024
+
+[Project Implementation](https://github.com/MrunmayiSA/ElectricityConsumptionPrediction.git)
+
+
+### Project 8: Dimensionality Reduction
 * Perfomed PCA on lfw_people dataset with 10 principal components
 * Found number of components required to preserve 95% variance in the dataset (k)
 * Updated PCA model with k and reconstructed the faces
@@ -82,7 +93,7 @@ Coming Soon........
 
 [Project Implementation](https://github.com/MrunmayiSA/DimensionalityReductionOnFaces.git)
 
-### Project 8: Clustering on 2D array of points
+### Project 9: Clustering on 2D array of points
 * Performed k-means clustering while visualizing clusters at each iteration
 * Used elbow method to find the optimal value of k
 * Implemented dbscan, hierarchical clustering, while visualizing dendograms
@@ -91,7 +102,7 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
 
 
-### Project 9: Churn Prediction of bank customers
+### Project 10: Churn Prediction of bank customers
 * Created a model that predicts whether a customer will churn (his/her balance will fall below minimum balance in the next quarter)
 * Handled missing values using appropriate imputations
 * Pre-processed data to make it modelling ready (one-hot encoding, skeweness treatment, outlier removal, scaling)
@@ -102,7 +113,7 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/CustomerChurnPrediction.git)
 
 
-### Project 10: Prediction of trip duration for cab services
+### Project 11: Prediction of trip duration for cab services
 * Eliminated irrelevant variables. Explored target variable. 
 * Visulized features and drew conclusions (Univariate, bivariate analysis)
 * Found feature relationships with target
