@@ -28,7 +28,7 @@
 
 [Conclusion and Results](https://zhuochenglin.github.io/US_Accidents_Project/)
 
-### Project 3: Music Genre Classification
+### Project 3: Music Genre Classification (Audio Data)
 Dataset: “Musical genre classification of audio signals “ by G. Tzanetakis and P. Cook in IEEE Transactions on Audio and Speech Processing 2002
 * Extracting following features from spectogram:
   * Mel-frequency cepstral coefficients (MFCC)(20 in number)
@@ -93,7 +93,14 @@ Coming Soon........
 
 [Project Implementation](https://github.com/MrunmayiSA/DimensionalityReductionOnFaces.git)
 
-### Project 9: Clustering on 2D array of points
+### Project 9: Real Estate Web Application
+* Constructed a Web Application for searching real estate based on unique features
+* Used MySQL to merge 5 data sources (crime, weather, disasters, business, zillow) and treat missing/dirty entries 
+* Created MVC layers using JDBC, jsp, html, css
+
+[Project Implementation](https://github.com/MrunmayiSA/OSPG_DataMonks.git)
+
+### Project 10: Clustering on 2D array of points
 * Performed k-means clustering while visualizing clusters at each iteration
 * Used elbow method to find the optimal value of k
 * Implemented dbscan, hierarchical clustering, while visualizing dendograms
@@ -102,7 +109,7 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
 
 
-### Project 10: Churn Prediction of bank customers
+### Project 11: Churn Prediction of bank customers
 * Created a model that predicts whether a customer will churn (his/her balance will fall below minimum balance in the next quarter)
 * Handled missing values using appropriate imputations
 * Pre-processed data to make it modelling ready (one-hot encoding, skeweness treatment, outlier removal, scaling)
@@ -113,7 +120,7 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/CustomerChurnPrediction.git)
 
 
-### Project 11: Prediction of trip duration for cab services
+### Project 12: Prediction of trip duration for cab services
 * Eliminated irrelevant variables. Explored target variable. 
 * Visulized features and drew conclusions (Univariate, bivariate analysis)
 * Found feature relationships with target
