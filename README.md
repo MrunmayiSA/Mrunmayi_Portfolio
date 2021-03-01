@@ -100,6 +100,9 @@ Coming Soon........
 
 [Project Implementation](https://github.com/MrunmayiSA/OSPG_DataMonks.git)
 
+### Project 10: ANN from Scratch
+
+
 ### Project 10: Clustering on 2D array of points
 * Performed k-means clustering while visualizing clusters at each iteration
 * Used elbow method to find the optimal value of k
