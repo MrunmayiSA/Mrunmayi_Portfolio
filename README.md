@@ -28,11 +28,22 @@
 
 [Conclusion and Results](https://zhuochenglin.github.io/US_Accidents_Project/)
 
-### Project 3: Audio Classification
+### Project 3: Music Genre Classification
+Dataset: “Musical genre classification of audio signals “ by G. Tzanetakis and P. Cook in IEEE Transactions on Audio and Speech Processing 2002
+* Extracting following features from spectogram:
+  * Mel-frequency cepstral coefficients (MFCC)(20 in number)
+  * Spectral Centroid,
+  * Zero Crossing Rate
+  * Chroma Frequencies
+  * Spectral Roll-off
+* Encoding the Labels
+* Scaling the Feature columns
+* Classification with Keras
 
-
+[Project Implementation](https://github.com/MrunmayiSA/MusicGenreClassification.git)
 
 ### Project 4: Book Recommendation System
+Coming Soon........
 
 
 
