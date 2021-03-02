@@ -113,7 +113,12 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/OSPG_DataMonks.git)
 
 ### Project 11: ANN from Scratch
+* Built a small Neural Network for understanding chatbot methodology
+* Created small dataset with 3 classes: goodbye, greeting, sandwich
+* Performed text cleaning, tokenization, stemming and converted it to bag-of-words model
+* Constructed Sigmoid Activation Function and 2-layer ANN with 80-90% accuracy on new sentences
 
+[Project Implementation](https://github.com/MrunmayiSA/ANNFromScratch.git)
 
 ### Project 12: Clustering on 2D array of points
 * Performed k-means clustering while visualizing clusters at each iteration
@@ -122,7 +127,6 @@ Coming Soon........
 * Performed color quantization using k-means
 
 [Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
-
 
 ### Project 13: Churn Prediction of bank customers
 * Created a model that predicts whether a customer will churn (his/her balance will fall below minimum balance in the next quarter)
@@ -133,7 +137,6 @@ Coming Soon........
 * Compared baseline agaist model built using top 10 features obtained by Reverse Feature Elimination
 
 [Project Implementation](https://github.com/MrunmayiSA/CustomerChurnPrediction.git)
-
 
 ### Project 14: Prediction of trip duration for cab services
 * Eliminated irrelevant variables. Explored target variable
