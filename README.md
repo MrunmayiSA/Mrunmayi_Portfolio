@@ -65,15 +65,27 @@ Coming Soon........
 
 [Project Implementation](https://github.com/MrunmayiSA/Text-Summarization.git)
 
-### Project 6: Named Entity Recognition model
+### Project 6: Predicting category for consumer complaints (Consumer Financial Protection Bureau)
+* Dataset: https://www.kaggle.com/cfpb/us-consumer-finance-complaints
+* Performed feature engineering to extract top product categories
+* Converted complaint descriptions into bag of words and applied TF-IDF
+* Found the terms that are the most correlated with each of the products using chi-square test
+* Created a multinomial naive bayes classifier and predicted category for new complaints
+* Applied cross-validation and compared accuracies of Logistic Regression, Random Forest, SVM and Naive Bayes
+* Explored the missclassified complaints
+* Improved classification accuracy to 0.83 using LSTM
+
+[Project Implementation](https://github.com/MrunmayiSA/PredictingComplaintCategory.git)
+
+### Project 7: Named Entity Recognition model
 * Task: To capture adverse drug reaction of a patient to a particular drug documented in patient's electronic health record using NLP
-* Explored Information Retrieval techniques for formulating rules to extract word sequences which form possible adverse drug reactions.
-* Utilized sci-spacy's pre-trained models for identification of diseases since they can be considered as adverse drug reactions.
+* Explored Information Retrieval techniques for formulating rules to extract word sequences which form possible adverse drug reactions
+* Utilized sci-spacy's pre-trained models for identification of diseases since they can be considered as adverse drug reactions
 * Fine-tuned the NER model developed at John Snow Labs, using SparkNLP pipeline
 
 [Project Implementation](https://github.com/MrunmayiSA/NERModel.git)
 
-### Project 7: Predict Electricity Consumption - ARIMA
+### Project 8: Predict Electricity Consumption - ARIMA
 * Dataset: https://www.kaggle.com/kandij/electric-production
 * Visualized Time Series
 * Checked for stationarity using ADF (Augmented Dickey-Fuller) Test
@@ -84,7 +96,7 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/ElectricityConsumptionPrediction.git)
 
 
-### Project 8: Dimensionality Reduction
+### Project 9: Dimensionality Reduction
 * Perfomed PCA on lfw_people dataset with 10 principal components
 * Found number of components required to preserve 95% variance in the dataset (k)
 * Updated PCA model with k and reconstructed the faces
@@ -93,17 +105,17 @@ Coming Soon........
 
 [Project Implementation](https://github.com/MrunmayiSA/DimensionalityReductionOnFaces.git)
 
-### Project 9: Real Estate Web Application
+### Project 10: Real Estate Web Application
 * Constructed a Web Application for searching real estate based on unique features
 * Used MySQL to merge 5 data sources (crime, weather, disasters, business, zillow) and treat missing/dirty entries 
 * Created MVC layers using JDBC, jsp, html, css
 
 [Project Implementation](https://github.com/MrunmayiSA/OSPG_DataMonks.git)
 
-### Project 10: ANN from Scratch
+### Project 11: ANN from Scratch
 
 
-### Project 10: Clustering on 2D array of points
+### Project 12: Clustering on 2D array of points
 * Performed k-means clustering while visualizing clusters at each iteration
 * Used elbow method to find the optimal value of k
 * Implemented dbscan, hierarchical clustering, while visualizing dendograms
@@ -112,7 +124,7 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/ClusteringOn2DArray.git)
 
 
-### Project 11: Churn Prediction of bank customers
+### Project 13: Churn Prediction of bank customers
 * Created a model that predicts whether a customer will churn (his/her balance will fall below minimum balance in the next quarter)
 * Handled missing values using appropriate imputations
 * Pre-processed data to make it modelling ready (one-hot encoding, skeweness treatment, outlier removal, scaling)
@@ -123,8 +135,8 @@ Coming Soon........
 [Project Implementation](https://github.com/MrunmayiSA/CustomerChurnPrediction.git)
 
 
-### Project 12: Prediction of trip duration for cab services
-* Eliminated irrelevant variables. Explored target variable. 
+### Project 14: Prediction of trip duration for cab services
+* Eliminated irrelevant variables. Explored target variable
 * Visulized features and drew conclusions (Univariate, bivariate analysis)
 * Found feature relationships with target
 * Performed pre-processing and feature engineering
